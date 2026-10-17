@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark & Light theme</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="dark:bg-[#212353] bg-[f7f7f7] flex items-center justify-center h-dvh transition-all duration-200">
+
+    <div class="w-[550px] bg-[#ececec] p-2 rounded-2xl shadow-[0_0_25px_#00000024] dark:bg-[#172031]">
+        <div class="flex justify-between items-center mb-4">
+            <img class="icon-light w-8 rounded-full hover:bg-black/5 dark:hidden"
+                src="./assets/sun-2-svgrepo-com (2).svg" alt="">
+            <img class="icon-dark w-8 rounded-full hover:bg-white/5 hidden dark:inline"
+                src="./assets/moon-svgrepo-com.svg" alt="">
+            <h3 class="font-medium text-[#686868] dark:hidden">LIGHT MODE</h3>
+            <h3 class="font-medium text-[#d3d3d3] hidden dark:inline">DARK MODE</h3>
+        </div>
+        <div
+            class="bg-white rounded-[8px] border-[1px] border-gray-300 p-2 flex flex-col gap-2 dark:bg-[#1f2937] dark:border-white/20">
+            <div class="w-14 rounded-full bg-blue-100 dark:bg-[#374151]"><img class="w-full p-3.5"
+                    src="./assets/user-svgrepo-com (1).svg" alt=""></div>
+            <h2 class="font-medium text-[20px] dark:text-white">Front End Developer</h2>
+            <p class="text-gray-600 dark:text-white/70">Learning JavaScript and Tailwind CSS.</p>
+            <button class="bg-blue-500 text-white rounded-[4px] p-1.5 text-[18px] hover:bg-blue-600 mt-2">View
+                Profile</button>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
